@@ -1,7 +1,7 @@
 # Board size, number of stones in a row to win
 # Tic Tac Toe: 3, 3
 # Gomoku: 15, 5
-BOARD_SIZE, WIN = 3, 3 # for debugging purposes
+BOARD_SIZE, WIN = 3, 3
 
 # Symbols for printing the board
 # White, black, blank, seperator or spacing between symbols
