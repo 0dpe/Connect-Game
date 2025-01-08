@@ -4,11 +4,11 @@
 BOARD_SIZE, WIN = 3, 3
 
 # Symbols for printing the board
-# White, black, blank, seperator or spacing between symbols
-SYMBOLS = '*', 'O', '·', ' '
+# White, black, blank, separator or spacing between symbols
+SYMBOLS = '@', 'O', '·', ' '
 
 # Import board position to resume playing
-# Board posotion is a list of sublists with each sublist being a row and the last item indicating the turn
+# Board position is a list of sublists with each sublist being a row and the last item indicating the turn
 IMPORT = None
 
 
@@ -23,7 +23,7 @@ def reset_board():
     print_board()
 
 reset_board()
-print('Enter x y coordinates seperated by a space or nothing to quit. Indexing starts at 1 at the top left.')
+print('Enter x y coordinates separated by a space or nothing to quit. Indexing starts at 1 at the top left.')
 
 while True:
     try:
